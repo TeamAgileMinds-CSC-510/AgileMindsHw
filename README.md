@@ -3,3 +3,5 @@
 <a href="https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/blob/master/LICENSE"><img alt="License: MIT" src="https://img.shields.io/github/license/TeamAgileMinds-CSC-510/AgileMindsHw.svg"></a>
 
 [![Python application](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/run_test.yml/badge.svg)](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/run_test.yml)
+
+[![Coverage Status](https://coveralls.io/repos/github/TeamAgileMinds-CSC-510/AgileMindsHw/badge.svg)](https://coveralls.io/github/TeamAgileMinds-CSC-510/AgileMindsHw)
