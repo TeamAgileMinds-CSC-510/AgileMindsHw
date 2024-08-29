@@ -5,3 +5,13 @@
 [![Python application](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/run_test.yml/badge.svg)](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/run_test.yml)
 
 [![Coverage Status](https://coveralls.io/repos/github/TeamAgileMinds-CSC-510/AgileMindsHw/badge.svg)](https://coveralls.io/github/TeamAgileMinds-CSC-510/AgileMindsHw)
+
+Subject : CSC 510 Software Engineering
+
+HomeWork 1 
+
+Group No 44
+Team Members :
+1 ) Shashank Ajit Walke        swalke@ncsu.edu
+2 ) Sumeet Bapurao Khillare    skhilla@ncsu.edu
+3 ) Xiaoqin Pi                 xpi@ncsu.edu"
