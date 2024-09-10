@@ -5,6 +5,7 @@ This module contains code for sorting list, and uses rand.py to generate random 
 Date: 2024-09-10
 """
 import rand
+import pdb
 
 
 def merge_sort(arr):
@@ -13,7 +14,7 @@ def merge_sort(arr):
     Return:
         Sorted list
     """
-    if len(arr) == 1:
+    if len(arr) <= 1:
         return arr
 
     half = len(arr)//2
@@ -32,17 +33,19 @@ def recombine(left_arr, right_arr):
     merge_arr = [None] * (len(left_arr) + len(right_arr))
     while left_index < len(left_arr) and right_index < len(right_arr):
         if left_arr[left_index] < right_arr[right_index]:
-            right_index += 1
             merge_arr[left_index + right_index] = left_arr[left_index]
+            left_index+=1
         else:
-            left_index += 1
             merge_arr[left_index + right_index] = right_arr[right_index]
+            right_index+=1
 
     for i in range(right_index, len(right_arr)):
         merge_arr[left_index + right_index] = right_arr[i]
+        right_index +=1
 
     for i in range(left_index, len(left_arr)):
         merge_arr[left_index + right_index] = left_arr[i]
+        left_index +=1
 
     return merge_arr
 
