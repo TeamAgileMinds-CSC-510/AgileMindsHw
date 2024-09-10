@@ -1,3 +1,4 @@
+#sorting an empty array, a single element array, multiple elements, duplicates, and a reverse-ordered array. 
 from hw2_debugging import mergeSort
 
 def test_sort_empty():
