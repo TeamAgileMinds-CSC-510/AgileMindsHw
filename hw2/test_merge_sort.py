@@ -1,6 +1,5 @@
 #sorting an empty array, a single element array, multiple elements, duplicates, and a reverse-ordered array. 
-from hw2_debugging 
-import merge_sort
+from hw2_debugging import merge_sort
 
 def test_sort_empty():
     assert merge_sort([]) == []
