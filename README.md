@@ -6,6 +6,8 @@
 
 [![Coverage Status](https://coveralls.io/repos/github/TeamAgileMinds-CSC-510/AgileMindsHw/badge.svg)](https://coveralls.io/github/TeamAgileMinds-CSC-510/AgileMindsHw)
 
+![Python package](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/ci.yml/badge.svg)
+
 Subject : CSC 510 Software Engineering
 
 HomeWork 1 <br>

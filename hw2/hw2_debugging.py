@@ -6,6 +6,7 @@ Date: 2024-09-10
 """
 import rand
 
+
 def merge_sort(arr):
     """
     Merge sort code

@@ -1,0 +1,2 @@
+[tool.poetry.dependencies]
+autopep8 = "^2.0.0"  # Replace with the latest version
