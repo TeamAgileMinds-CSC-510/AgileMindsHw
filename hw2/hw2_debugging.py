@@ -4,8 +4,8 @@ hw2_debugging.py
 This module contains code for sorting list, and uses rand.py to generate random numbers.
 Date: 2024-09-10
 """
+
 import rand
-import pdb
 
 
 def merge_sort(arr):

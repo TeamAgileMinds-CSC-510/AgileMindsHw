@@ -1,9 +1,9 @@
-name: Lint Code Base
+name: Flakes Code Base
 
 on: [push, pull_request]
 
 jobs:
-  lint:
+  flakes:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -16,8 +16,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pylint pyflakes
+          pip install pyflakes
 
-      - name: Run Pylint
-        run: |
-          pylint --disable=all --enable=E,W hw2/hw2_debugging.py
+      - name: Run Pyflakes
+        run: pyflakes hw2/hw2_debugging.py
