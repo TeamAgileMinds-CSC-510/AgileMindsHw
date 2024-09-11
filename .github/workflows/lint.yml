@@ -19,7 +19,10 @@ jobs:
           pip install pylint pyflakes
 
       - name: Run Pylint
-        run: pylint hw2_debugging.py
+        run: |
+          pwd
+          ls
+          pylint hw2_debugging.py
 
       - name: Run Pyflakes
         run: pyflakes hw2_debugging.py
