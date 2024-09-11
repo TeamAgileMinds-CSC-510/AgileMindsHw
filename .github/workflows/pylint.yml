@@ -1,4 +1,4 @@
-name: Lint Code Base
+name: Lint Code Check
 
 on: [push, pull_request]
 
@@ -16,7 +16,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pylint pyflakes
+          pip install pylint
 
       - name: Run Pylint
         run: |
