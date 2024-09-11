@@ -8,6 +8,9 @@
 
 ![Python package](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/ci.yml/badge.svg)
 
+![Lint Status](https://github.com/<your-username>/<your-repo>/actions/workflows/lint.yml/badge.svg)
+
+
 Subject : CSC 510 Software Engineering
 
 HomeWork 1 <br>
