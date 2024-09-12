@@ -7,6 +7,7 @@
 ![AutoPep 8](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/autopep8.yml/badge.svg)
 ![PyLint Status](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/pylint.yml/badge.svg)
 ![Flakes Status](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/flakes.yml/badge.svg)
+![Bandit](https://img.shields.io/badge/Bandit-Test-green)
 
 Subject : CSC 510 Software Engineering
 
