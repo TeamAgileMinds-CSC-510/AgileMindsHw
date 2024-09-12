@@ -1,4 +1,4 @@
-name: Flakes Code Base
+name: Flakes Code Check
 
 on: [push, pull_request]
 
