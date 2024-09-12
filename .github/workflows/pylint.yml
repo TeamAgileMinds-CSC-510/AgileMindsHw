@@ -1,4 +1,4 @@
-name: Lint Code Check
+name: PyLint Code Check
 
 on: [push, pull_request]
 
