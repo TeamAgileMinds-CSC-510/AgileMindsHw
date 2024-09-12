@@ -3,7 +3,7 @@ name: Lint Code Check
 on: [push, pull_request]
 
 jobs:
-  lint:
+  pylint:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
