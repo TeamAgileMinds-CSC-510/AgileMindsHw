@@ -4,6 +4,7 @@
 [![Test cases](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/run_test.yml/badge.svg)](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/run_test.yml)
 [![Coverage Status](https://coveralls.io/repos/github/TeamAgileMinds-CSC-510/AgileMindsHw/badge.svg)](https://coveralls.io/github/TeamAgileMinds-CSC-510/AgileMindsHw)
 
+
 ![AutoPep 8](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/autopep8.yml/badge.svg)
 ![PyLint Status](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/pylint.yml/badge.svg)
 ![Flakes Status](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/flakes.yml/badge.svg)
