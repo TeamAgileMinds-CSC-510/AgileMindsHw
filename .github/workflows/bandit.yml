@@ -1,0 +1,22 @@
+name: Bandit Security Test
+
+on: [push, pull_request]
+
+jobs:
+  security_scan:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Install Bandit
+      run: pip install bandit
+    - name: Run Bandit
+      run: bandit -r . --format yaml > bandit-report.yaml
+    - name: Upload Bandit Report
+      uses: actions/upload-artifact@v2
+      with:
+        name: bandit-report
+        path: bandit-report.yaml
