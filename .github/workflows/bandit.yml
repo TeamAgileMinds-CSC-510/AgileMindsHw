@@ -16,7 +16,7 @@ jobs:
     - name: Run Bandit
       run: bandit -r . --format yaml > bandit-report.yaml
     - name: Upload Bandit Report
-      uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v2
       with:
         name: bandit-report
         path: bandit-report.yaml
