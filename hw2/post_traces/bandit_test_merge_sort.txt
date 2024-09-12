@@ -1,0 +1,70 @@
+Run started:2024-09-12 04:51:39.257814
+
+Test results:
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.9/plugins/b101_assert_used.html
+   Location: ./test_merge_sort.py:6:4
+5       def test_sort_empty():
+6           assert merge_sort([]) == []
+7
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.9/plugins/b101_assert_used.html
+   Location: ./test_merge_sort.py:10:4
+9       def test_sort_single_element():
+10          assert merge_sort([1]) == [1]
+11
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.9/plugins/b101_assert_used.html
+   Location: ./test_merge_sort.py:14:4
+13      def test_sort_multiple_elements():
+14          assert merge_sort([4, 2, 7, 1, 9]) == [1, 2, 4, 7, 9]
+15
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.9/plugins/b101_assert_used.html
+   Location: ./test_merge_sort.py:18:4
+17      def test_sort_duplicates():
+18          assert merge_sort([4, 2, 4, 1, 2]) == [1, 2, 2, 4, 4]
+19
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.9/plugins/b101_assert_used.html
+   Location: ./test_merge_sort.py:22:4
+21      def test_sort_reverse_order():
+22          assert merge_sort([5, 4, 3, 2, 1]) == [1, 2, 3, 4, 5]
+
+--------------------------------------------------
+
+Code scanned:
+        Total lines of code: 11
+        Total lines skipped (#nosec): 0
+        Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+        Total issues (by severity):
+                Undefined: 0
+                Low: 5
+                Medium: 0
+                High: 0
+        Total issues (by confidence):
+                Undefined: 0
+                Low: 0
+                Medium: 0
+                High: 5
+Files skipped (0):
