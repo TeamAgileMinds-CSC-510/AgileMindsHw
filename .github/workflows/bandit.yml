@@ -6,17 +6,19 @@ jobs:
   security_scan:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python
-      uses: actions/setup-python@v2
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.11.10
+      uses: actions/setup-python@v5
       with:
-        python-version: '3.x'
+        python-version: '3.11.10'
     - name: Install Bandit
       run: pip install bandit
     - name: Run Bandit
-      run: bandit -r . --format yaml > bandit-report.yaml
+      run: |
+        bandit -r ./hw2/hw2_debugging.py --format json -o bandit-report.json
+
     - name: Upload Bandit Report
-    - uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: bandit-report
         path: bandit-report.yaml

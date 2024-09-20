@@ -5,10 +5,10 @@
 [![Coverage Status](https://coveralls.io/repos/github/TeamAgileMinds-CSC-510/AgileMindsHw/badge.svg)](https://coveralls.io/github/TeamAgileMinds-CSC-510/AgileMindsHw)
 
 
-![AutoPep 8](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/autopep8.yml/badge.svg)
-![PyLint Status](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/pylint.yml/badge.svg)
-![Flakes Status](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/flakes.yml/badge.svg)
-![Bandit Status](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/bandit.yml/badge.svg)
+[![AutoPep 8](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/autopep8.yml/badge.svg)](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/autopep8.yml/)
+[![PyLint Status](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/pylint.yml/badge.svg)](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/pylint.yml/)
+[![Flakes Status](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/flakes.yml/badge.svg)](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/flakes.yml)
+[![Bandit Status](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/bandit.yml/badge.svg)](https://github.com/TeamAgileMinds-CSC-510/AgileMindsHw/actions/workflows/bandit.yml)
 
 Subject : CSC 510 Software Engineering
 
