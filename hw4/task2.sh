@@ -1,0 +1,2 @@
+#!/bin/bash
+grep -rl "sample" . | xargs -I {} sh -c 'count=$(grep -o "CSC510" "{}" | wc -l); [ $count -ge 3 ] && echo "{}" $count $(stat -c%s "{}")' | sort -k2,2nr -k3,3nr | gawk '{print $1}' | sed 's/file_/filtered_/g'
