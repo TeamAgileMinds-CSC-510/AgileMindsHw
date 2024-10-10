@@ -1,5 +1,0 @@
-foo
-delete
-foo
-foo
-delete
