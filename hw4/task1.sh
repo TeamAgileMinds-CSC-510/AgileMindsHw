@@ -1,12 +1,8 @@
 #!/bin/bash
-# Finds and kills the process running infinite.sh
-pids=$(pgrep -f 'bash infinite.sh')
+pids=$(pgrep -f 'infinite.sh')
+
 if [ ! -z "$pids" ]; then
-    for pid in $pids; do
-        echo "Killing process with ID: $pid "
-        kill $pid #
-        echo " $pid has been killed."
-    done
+    echo "$pids" | xargs -r -n 1 sh -c 'echo "Killing process with ID: $0"; kill "$0" && echo "$0 has been killed." || echo "Failed to kill process $0."'
 else
     echo "No process found."
 fi
